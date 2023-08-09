@@ -1,0 +1,5 @@
+<h4><span>Title:</span> <%= @book.title %></h4>
+
+<h4><span>Body:</span> <%= @book.body %></h4>
+
+<span><%= link_to "Edit",book_edit_path(@book.id) %></span> | <span><%= link_to "Back",books_path %></span>
