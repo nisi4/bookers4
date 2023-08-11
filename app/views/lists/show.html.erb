@@ -1,5 +1,7 @@
-<h4><span>Title:</span> <%= @book.title %></h4>
+<h4 class="show-h4"><span class="title">Title:</span> <%= @book.title %></h4>
 
-<h4><span>Body:</span> <%= @book.body %></h4>
+<h4 class="show-h4"><span class="title">Body:</span> <%= @book.body %></h4>
 
-<span><%= link_to "Edit",book_edit_path(@book.id) %></span> | <span><%= link_to "Back",books_path %></span>
+<div class="link">
+  <span><%= link_to "Edit",book_edit_path(@book.id) %></span> | <span><%= link_to "Back",books_path %></span>
+</div>
